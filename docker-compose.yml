@@ -1,8 +1,8 @@
 version: '3.9'
 services:
   jupyter_fastapi:
-    container_name: ${CONTAINER_PREFIX}_jupyter_fastapi
-    image: heart_disease_projects  # Specifies the name for the built image.
+    container_name: ${CONTAINER_PREFIX}_jupyter
+    image: heart_disease_predictions  # Specifies the name for the built image.
     build:
       context: .
       dockerfile: Dockerfile
