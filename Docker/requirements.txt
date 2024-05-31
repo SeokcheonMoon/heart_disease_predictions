@@ -5,6 +5,8 @@ pandas
 
 numpy
 
+imblearn
+
 matplotlib
 seaborn
 scipy
