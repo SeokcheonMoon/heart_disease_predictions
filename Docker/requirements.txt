@@ -5,7 +5,7 @@ pandas
 
 numpy
 
-imblearn
+imbalanced-learn
 
 matplotlib
 seaborn
