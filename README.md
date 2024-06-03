@@ -73,7 +73,7 @@
 => RandomUnderSampler를 제외한 나머지 두 모델은 예측 성능이 떨어지는 것을 확인.
 
 ### 결과 1 : 1(심장병 있음)에 대한 예측 성능이 가장 높은 로지스틱 회귀를 선정.
-### 결과 2 : OverSampling 중 가장 높은 성능을 보이는 RandomOverSampler 채택.
+### 결과 2 : OverSampling 중 가장 높은 성능(77%)을 보이는 RandomOverSampler 채택.
 
 ## Reference
 - dataset 출처 : [Kaggle](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
