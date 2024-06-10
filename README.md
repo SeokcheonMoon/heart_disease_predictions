@@ -15,28 +15,9 @@
 
 - 예측 모델 개발 시 이후 입력 데이터에 대하여 위험도를 인지할 수 있는 지표가 될 수 있음.
 
-## Dataset Description
+## 프로젝트 기간
 
-|No.|Data|Description|Type|
-|--|--|--|--|
-|1|HeartDisease|심장 질환 유무|Categorical|
-|2|BMI|BMI 수치|Numerical|
-|3|Smoking|흡연 여부|Categorical|
-|4|AlcoholDrinking|음주 여부|Categorical|
-|5|Stroke|뇌졸증 여부|Categorical|
-|6|PhysicalHealth|한 달 내 신체적으로 건강하지 않은 일수|Numerical|
-|7|MentalHealth|한 달 내 정신적으로 건강하지 않은 일수|Numerical|
-|8|DiffWalking|보행 시 어려움 여부|Categorical|
-|9|Sex|성별|Categorical|
-|10|AgeCategory|연령대|Categorical|
-|11|Race|인종|Categorical|
-|12|Diabetic|당뇨병 여부|Categorical|
-|13|PhysicalActivity|한 달 내 신체활동 여부|Categorical|
-|14|GenHealth|주관적인 건강 상태|Categorical|
-|15|Sleeptime|1일 평균 수면 시간|Numerical|
-|16|Asthma|천식 여부|Categorical|
-|17|KidneyDisease|신장 질환 여부|Categorical|
-|18|SkinCancer|피부암 여부|Categorical|
+- 2024.05.30 ~ 2024.06.10
 
 ## 주요 기술
 |Name|Description|Where to Use|
@@ -44,6 +25,14 @@
 |Python|기본 프로그래밍 언어|데이터 분석|
 |Jupyter|분석 환경 세팅|데이터 분석 및 모델 개발|
 |Docker|협업 툴|개발 환경 공유|
+
+## 프로젝트 단계
+|Stage|Description|Source|
+|--|--|--|
+|Step 1|Docker 설치 및 분석 환경 세팅|[Docker 설치](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/Docker/docker-compose.yml)|
+|Step 2|데이터셋 확인, 가설 생성 후 상관관계 파악|[데이터 분석](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/DA/data_analystic_health.ipynb)|
+|Step 3|분류 모델 생성 및 모델 선정|[분류 모델 생성](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/classification_basic.ipynb)|
+|Step 4|하이퍼 파라미터 및 샘플링 적용|[분류 모델 성능 향상](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/classification_oversampling_RandomOverSampler.ipynb)|
 
 ## 모델 성능 확인
 
@@ -76,6 +65,10 @@
 
 ### 결과 1 : 1(심장병 있음)에 대한 예측 성능이 가장 높은 로지스틱 회귀를 선정.
 ### 결과 2 : OverSampling 중 가장 높은 성능(77%)을 보이는 RandomOverSampler 채택.
+
+## 느낀점
+- 과정이 미숙하지만 스스로 데이터 셋을 가져와 데이터 분석을 통해 가설 생성 후 상관관계를 파악하고 분류 모델 생성까지 하는 첫번째 개인 프로젝트라는 것에 의미를 둠.
+- 모델 개발 과정에서 다른 모델들의 하이퍼 파라미터를 적용시킨 후 모델 선정을 하는 것은 어땠을까 생각함.
 
 ## Reference
 - dataset 출처 : [Kaggle](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
