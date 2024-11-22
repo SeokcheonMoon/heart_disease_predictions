@@ -20,23 +20,21 @@
 - 2024.11.20 ~ 진행중
 
 ## 주요 기술
-|Name|Description|Where to Use|
+|Name|Description|Detail|
 |--|--|--|
-|Python|기본 프로그래밍 언어|데이터 분석|
-|Jupyter|분석 환경 세팅|데이터 분석 및 모델 개발|
+|Python|사용 프로그래밍 언어|Pandas, Matplotlib, Seaborn, Scikit-learn 등|
+|Jupyter|웹 프레임워크|Jupyterlab 사용|
 |Docker|협업 툴|개발 환경 공유|
 
 ## Process
 
 |Stage|Activity|Date|Comment|Code Link|
 |--|--|--|--|--|
-|1|Docker 설치 및 분석 환경 세팅|2024.11.20||[1](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/Docker/docker-compose.yml)|
-|2|심장병 관련 데이터셋 분석|2024.11.20|데이터 시각화, 컬럼별 심장병 유무 연관성 파악||
-||||||
-||||||
-||||||
-||||||
-||||||
+|1|Docker 설치|2024.11.20|분석 환경 구성|[Docker 설치](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/Docker/docker-compose.yml)|
+|2|심장병 관련 데이터셋 분석|2024.11.22|데이터 시각화, 컬럼별 심장병 유무 연관성 파악|[데이터 분석](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/DA/analysis_visualization.ipynb)|
+|3|가설 생성 및 검증|2024.11.23|||
+|4|머신러닝 분류 모델 생성||||
+|5|분류 모델 성능 최적화||||
 
 ## 분석 결과
 
