@@ -16,7 +16,7 @@
 |12|Diabetic|당뇨병 여부|Categorical|
 |13|PhysicalActivity|한 달 내 신체활동 여부|Categorical|
 |14|GenHealth|주관적인 건강 상태|Categorical|
-|15|Sleeptime|1일 평균 수면 시간|Numerical|
+|15|SleepTime|1일 평균 수면 시간|Numerical|
 |16|Asthma|천식 여부|Categorical|
 |17|KidneyDisease|신장 질환 여부|Categorical|
 |18|SkinCancer|피부암 여부|Categorical|
