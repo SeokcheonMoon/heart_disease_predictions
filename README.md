@@ -34,12 +34,28 @@
 |2|EDA|2024.11.22|데이터 시각화, 컬럼별 심장병 유무 연관성 파악|[데이터 시각화](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/DA/analysis_visualization.ipynb)|
 |3|CDA|2024.11.23|가설 생성 및 검증|[가설 검증](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/DA/analysis_hypothesis.ipynb)|
 |4|분류 모델 생성|2024.11.25|모델 학습 및 테스트|[모델 생성](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/modeling_prediction_basic.ipynb)|
-|5|분류 모델 성능 최적화||||
+|5|분류 모델 향상|2024.11.25|오버샘플링||
+||||언더샘플링||
+||||하이퍼파라미터 적용||
 
-## 분석 결과
+## 분석결과
+
+### (1) 데이터 시각화
+![image](https://github.com/user-attachments/assets/52f81237-ecea-4546-80f6-13d1c2eb160f)
+![image](https://github.com/user-attachments/assets/546e27fd-90c7-4f3d-be9c-b30277973795)
+
+=> 위와 같이 각 컬럼들에 대해 시각화 진행하였음.
+
+### (2) 가설 검증
+![image](https://github.com/user-attachments/assets/4893ed4d-4bd7-481a-aaab-984989ced1f0)
+
+=> 위와 같이 각 컬럼마다 카이제곱을 이용한 연관성을 분석함.
+
+### 결론 : 정신적 질환 정도를 제외한 나머지 컬럼이 유의미함.
+
+## 머신러닝 모델 개발 결과
 
 
-## 머신러닝 모델 개발
 
 ## Reference
 - dataset 출처 : [Kaggle](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)

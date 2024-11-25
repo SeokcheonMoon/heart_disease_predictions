@@ -20,3 +20,7 @@
 |16|Asthma|천식 여부|Categorical|
 |17|KidneyDisease|신장 질환 여부|Categorical|
 |18|SkinCancer|피부암 여부|Categorical|
+
+## Data mean
+- heart_2020_cleaned.csv : 기존 데이터셋
+- df_heart_stable.csv : 데이터 전처리, 레이블 인코딩 한 데이터셋
