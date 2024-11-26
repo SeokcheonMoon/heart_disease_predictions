@@ -67,7 +67,9 @@
 
 ### ML result(진행중)
 
+![image](https://github.com/user-attachments/assets/e6707c75-5e42-4d4f-ad70-bfd7c99f9212)
 
+=> 심장병 있음(1)에 대한 정밀도 및 재현율이 떨어지는 것으로 보임.
 
 ## Reference
 - dataset 출처 : [Kaggle](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
