@@ -35,7 +35,8 @@
 |3|CDA|2024.11.23|가설 생성 및 검증|[가설 검증](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/DA/analysis_hypothesis.ipynb)|
 |4|분류 모델 생성|2024.11.25|모델 학습 및 테스트|[모델 생성](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/modeling_prediction_basic.ipynb)|
 |5|분류 모델 향상|2024.11.25|클래스 불균형 처리|[오버샘플링 선정](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/oversampling_xgboost.ipynb)|
-||||임계값 조정 및 하이퍼파라미터 튜닝||
+|||2024.11.25|임계값 조정 및 하이퍼파라미터 튜닝|[튜닝](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/tuning_oversampling_xgboost.ipynb)|
+|||2024.11.25|훈련데이터량 증가|[훈련데이터량 증가](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/modifying_training_percent.ipynb)|
 
 ## 분석결과
 
