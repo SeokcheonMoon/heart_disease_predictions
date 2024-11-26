@@ -37,6 +37,7 @@
 |5|분류 모델 향상|2024.11.25|클래스 불균형 처리|[오버샘플링 선정](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/oversampling_xgboost.ipynb)|
 |||2024.11.25|임계값 조정 및 하이퍼파라미터 튜닝|[튜닝](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/tuning_oversampling_xgboost.ipynb)|
 |||2024.11.25|훈련데이터량 증가|[훈련데이터량 증가](https://github.com/SeokcheonMoon/heart_disease_predictions/blob/main/data_analysis/ML/modifying_training_percent.ipynb)|
+|6|향상 방안 모색|2024.11.26 ~ |||
 
 ## 분석결과
 
@@ -53,9 +54,10 @@
 
 ### 결론 : 정신적 질환 정도를 제외한 나머지 컬럼이 유의미함.
 
-## 머신러닝 모델 개발 결과
+## 머신러닝 모델 개발 진행
 
-
+- 1차 : 로지스틱회귀, 랜덤포레스트, K최근접, XGBoost, SVM 모델 학습
+- 2차 : 
 
 ## Reference
 - dataset 출처 : [Kaggle](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
