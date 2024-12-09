@@ -71,7 +71,7 @@
 
 ### ML result(진행중)
 
-![image](https://github.com/user-attachments/assets/e6707c75-5e42-4d4f-ad70-bfd7c99f9212)
+![image](https://github.com/user-attachments/assets/6fe3a7b2-bd5e-4440-be77-f204e1740d91)
 
 => 심장병 있음(1)에 대한 정밀도 및 재현율이 떨어지는 것으로 보임.
 
