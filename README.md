@@ -17,7 +17,7 @@
 
 ### 프로젝트 기간
 
-- 2024.11.20 ~ 진행중
+- 2024.11.20 ~ 2024.11.26
 
 ## 주요 기술
 |Name|Description|Detail|
@@ -47,7 +47,7 @@
 
 => 위와 같이 각 컬럼들에 대해 시각화 진행하였음.
 
-### (2) 가설 검증
+### (2) 통계적 검증
 ![image](https://github.com/user-attachments/assets/4893ed4d-4bd7-481a-aaab-984989ced1f0)
 
 => 위와 같이 각 컬럼마다 카이제곱을 이용한 연관성을 분석함.
@@ -61,7 +61,7 @@
 
 1. 초기 접근
     - 수치형 데이터를 범주화한 뒤 레이블 인코딩 처리 이후 머신러닝 학습
-    - 한계 : 수치형 데이터의 연속화된 특성을 잃어버릴 수 있음.
+    - 한계 : 수치형 데이터의 연속된 특성을 잃어버릴 수 있음.
     - 가장 성능이 좋은 XGBoost 선정 후 튜닝 및 재학습
 
 2. 2차 접근
@@ -72,7 +72,9 @@
 ### ML result(진행중)
 
 ![image](https://github.com/user-attachments/assets/6fe3a7b2-bd5e-4440-be77-f204e1740d91)
+![image](https://github.com/user-attachments/assets/70fabee4-d6b3-43e6-b298-ca95d214bc6d)
 
+=> 심장병 있음(1)에 대한 정밀도 및 재현율이 떨어지는 것으로 보임.
 => 심장병 있음(1)에 대한 정밀도 및 재현율이 떨어지는 것으로 보임.
 
 ## Reference
