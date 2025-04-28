@@ -74,7 +74,30 @@
 ![image](https://github.com/user-attachments/assets/6fe3a7b2-bd5e-4440-be77-f204e1740d91)
 ![image](https://github.com/user-attachments/assets/70fabee4-d6b3-43e6-b298-ca95d214bc6d)
 
-=> 심장병 있음(1)에 대한 정밀도 및 재현율이 떨어지는 것으로 보임.
+#### 전체 Accuracy: 85%
+
+세부 해석 :
+
+- 정상(0): 정밀도(0.95), 재현율(0.88) 모두 높음. → 정상인을 매우 잘 분류함.
+
+- 심장병(1): 정밀도(0.29), 재현율(0.50)로 상대적으로 낮음. → 심장병 환자 절반 정도는 찾아내지만, 여전히 절반은 놓침.
+
+- Macro avg (클래스별 평균): 정밀도/재현율이 0.6대.
+
+- Weighted avg (표본수 고려한 평균): 정밀도/재현율이 0.85~0.87.
+
+요약 :
+- 모델은 정상인을 잘 찾지만, 심장병 환자에 대해서는 탐지력이 부족함. 특히 심장병 클래스(1)에서는 잘못 분류(False Negative)가 다소 많음.
+
+### 차후 방향성 제안 :
+
+#### 모델 개선 방향
+
+- 데이터 레벨 개선
+
+- 더 많은 심장병 데이터 수집
+
+- 데이터 증강(Data Augmentation) 기술 적용
 
 ## Reference
 - dataset 출처 : [Kaggle](https://www.kaggle.com/datasets/aqleemkhan/heart-disease-2020/data)
